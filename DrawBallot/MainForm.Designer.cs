@@ -68,6 +68,8 @@
             this.winnerListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -78,7 +80,7 @@
             this.drawButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.drawButton.AutoSize = true;
             this.drawButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.drawButton.Location = new System.Drawing.Point(622, 646);
+            this.drawButton.Location = new System.Drawing.Point(629, 646);
             this.drawButton.Name = "drawButton";
             this.drawButton.Size = new System.Drawing.Size(40, 23);
             this.drawButton.TabIndex = 0;
@@ -88,19 +90,17 @@
             // 
             // lID1
             // 
-            this.lID1.AutoSize = true;
             this.lID1.BackColor = System.Drawing.SystemColors.Window;
             this.lID1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lID1.Location = new System.Drawing.Point(349, 38);
             this.lID1.Name = "lID1";
             this.lID1.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lID1.Size = new System.Drawing.Size(92, 55);
+            this.lID1.Size = new System.Drawing.Size(150, 55);
             this.lID1.TabIndex = 2;
             this.lID1.Text = "ID";
             // 
             // lFN1
             // 
-            this.lFN1.AutoSize = true;
             this.lFN1.BackColor = System.Drawing.SystemColors.Window;
             this.lFN1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lFN1.Location = new System.Drawing.Point(520, 38);
@@ -112,7 +112,6 @@
             // 
             // lLN1
             // 
-            this.lLN1.AutoSize = true;
             this.lLN1.BackColor = System.Drawing.SystemColors.Window;
             this.lLN1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lLN1.Location = new System.Drawing.Point(834, 38);
@@ -145,19 +144,17 @@
             // 
             // lID2
             // 
-            this.lID2.AutoSize = true;
             this.lID2.BackColor = System.Drawing.SystemColors.Window;
             this.lID2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.lID2.Location = new System.Drawing.Point(349, 93);
             this.lID2.Name = "lID2";
             this.lID2.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lID2.Size = new System.Drawing.Size(92, 55);
+            this.lID2.Size = new System.Drawing.Size(150, 55);
             this.lID2.TabIndex = 2;
             this.lID2.Text = "ID";
             // 
             // lFN2
             // 
-            this.lFN2.AutoSize = true;
             this.lFN2.BackColor = System.Drawing.SystemColors.Window;
             this.lFN2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.lFN2.Location = new System.Drawing.Point(520, 93);
@@ -169,7 +166,6 @@
             // 
             // lLN2
             // 
-            this.lLN2.AutoSize = true;
             this.lLN2.BackColor = System.Drawing.SystemColors.Window;
             this.lLN2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lLN2.Location = new System.Drawing.Point(834, 93);
@@ -181,19 +177,17 @@
             // 
             // lID3
             // 
-            this.lID3.AutoSize = true;
             this.lID3.BackColor = System.Drawing.SystemColors.Window;
             this.lID3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lID3.Location = new System.Drawing.Point(349, 148);
             this.lID3.Name = "lID3";
             this.lID3.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lID3.Size = new System.Drawing.Size(92, 55);
+            this.lID3.Size = new System.Drawing.Size(150, 55);
             this.lID3.TabIndex = 2;
             this.lID3.Text = "ID";
             // 
             // lFN3
             // 
-            this.lFN3.AutoSize = true;
             this.lFN3.BackColor = System.Drawing.SystemColors.Window;
             this.lFN3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lFN3.Location = new System.Drawing.Point(520, 148);
@@ -205,7 +199,6 @@
             // 
             // lLN3
             // 
-            this.lLN3.AutoSize = true;
             this.lLN3.BackColor = System.Drawing.SystemColors.Window;
             this.lLN3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lLN3.Location = new System.Drawing.Point(834, 148);
@@ -217,19 +210,17 @@
             // 
             // lID4
             // 
-            this.lID4.AutoSize = true;
             this.lID4.BackColor = System.Drawing.SystemColors.Window;
             this.lID4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lID4.Location = new System.Drawing.Point(349, 203);
             this.lID4.Name = "lID4";
             this.lID4.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lID4.Size = new System.Drawing.Size(92, 55);
+            this.lID4.Size = new System.Drawing.Size(150, 55);
             this.lID4.TabIndex = 2;
             this.lID4.Text = "ID";
             // 
             // lFN4
             // 
-            this.lFN4.AutoSize = true;
             this.lFN4.BackColor = System.Drawing.SystemColors.Window;
             this.lFN4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lFN4.Location = new System.Drawing.Point(520, 203);
@@ -241,7 +232,6 @@
             // 
             // lLN4
             // 
-            this.lLN4.AutoSize = true;
             this.lLN4.BackColor = System.Drawing.SystemColors.Window;
             this.lLN4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lLN4.Location = new System.Drawing.Point(834, 203);
@@ -253,19 +243,17 @@
             // 
             // lID5
             // 
-            this.lID5.AutoSize = true;
             this.lID5.BackColor = System.Drawing.SystemColors.Window;
             this.lID5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lID5.Location = new System.Drawing.Point(349, 258);
             this.lID5.Name = "lID5";
             this.lID5.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lID5.Size = new System.Drawing.Size(92, 55);
+            this.lID5.Size = new System.Drawing.Size(150, 55);
             this.lID5.TabIndex = 2;
             this.lID5.Text = "ID";
             // 
             // lFN5
             // 
-            this.lFN5.AutoSize = true;
             this.lFN5.BackColor = System.Drawing.SystemColors.Window;
             this.lFN5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lFN5.Location = new System.Drawing.Point(520, 258);
@@ -277,7 +265,6 @@
             // 
             // lLN5
             // 
-            this.lLN5.AutoSize = true;
             this.lLN5.BackColor = System.Drawing.SystemColors.Window;
             this.lLN5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lLN5.Location = new System.Drawing.Point(834, 258);
@@ -289,67 +276,61 @@
             // 
             // lID6
             // 
-            this.lID6.AutoSize = true;
             this.lID6.BackColor = System.Drawing.SystemColors.Window;
             this.lID6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lID6.Location = new System.Drawing.Point(349, 313);
             this.lID6.Name = "lID6";
             this.lID6.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lID6.Size = new System.Drawing.Size(92, 55);
+            this.lID6.Size = new System.Drawing.Size(150, 55);
             this.lID6.TabIndex = 2;
             this.lID6.Text = "ID";
             // 
             // lID7
             // 
-            this.lID7.AutoSize = true;
             this.lID7.BackColor = System.Drawing.SystemColors.Window;
             this.lID7.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lID7.Location = new System.Drawing.Point(349, 368);
             this.lID7.Name = "lID7";
             this.lID7.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lID7.Size = new System.Drawing.Size(92, 55);
+            this.lID7.Size = new System.Drawing.Size(150, 55);
             this.lID7.TabIndex = 2;
             this.lID7.Text = "ID";
             // 
             // lID8
             // 
-            this.lID8.AutoSize = true;
             this.lID8.BackColor = System.Drawing.SystemColors.Window;
             this.lID8.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lID8.Location = new System.Drawing.Point(349, 423);
             this.lID8.Name = "lID8";
             this.lID8.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lID8.Size = new System.Drawing.Size(92, 55);
+            this.lID8.Size = new System.Drawing.Size(150, 55);
             this.lID8.TabIndex = 2;
             this.lID8.Text = "ID";
             // 
             // lID9
             // 
-            this.lID9.AutoSize = true;
             this.lID9.BackColor = System.Drawing.SystemColors.Window;
             this.lID9.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lID9.Location = new System.Drawing.Point(349, 478);
             this.lID9.Name = "lID9";
             this.lID9.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lID9.Size = new System.Drawing.Size(92, 55);
+            this.lID9.Size = new System.Drawing.Size(150, 55);
             this.lID9.TabIndex = 2;
             this.lID9.Text = "ID";
             // 
             // lID10
             // 
-            this.lID10.AutoSize = true;
             this.lID10.BackColor = System.Drawing.SystemColors.Window;
             this.lID10.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lID10.Location = new System.Drawing.Point(349, 533);
             this.lID10.Name = "lID10";
             this.lID10.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lID10.Size = new System.Drawing.Size(92, 55);
+            this.lID10.Size = new System.Drawing.Size(150, 55);
             this.lID10.TabIndex = 2;
             this.lID10.Text = "ID";
             // 
             // lFN6
             // 
-            this.lFN6.AutoSize = true;
             this.lFN6.BackColor = System.Drawing.SystemColors.Window;
             this.lFN6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lFN6.Location = new System.Drawing.Point(520, 313);
@@ -361,7 +342,6 @@
             // 
             // lFN7
             // 
-            this.lFN7.AutoSize = true;
             this.lFN7.BackColor = System.Drawing.SystemColors.Window;
             this.lFN7.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lFN7.Location = new System.Drawing.Point(520, 368);
@@ -373,7 +353,6 @@
             // 
             // lFN8
             // 
-            this.lFN8.AutoSize = true;
             this.lFN8.BackColor = System.Drawing.SystemColors.Window;
             this.lFN8.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lFN8.Location = new System.Drawing.Point(520, 423);
@@ -385,7 +364,6 @@
             // 
             // lFN9
             // 
-            this.lFN9.AutoSize = true;
             this.lFN9.BackColor = System.Drawing.SystemColors.Window;
             this.lFN9.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lFN9.Location = new System.Drawing.Point(520, 478);
@@ -397,7 +375,6 @@
             // 
             // lFN10
             // 
-            this.lFN10.AutoSize = true;
             this.lFN10.BackColor = System.Drawing.SystemColors.Window;
             this.lFN10.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lFN10.Location = new System.Drawing.Point(520, 533);
@@ -409,7 +386,6 @@
             // 
             // lLN6
             // 
-            this.lLN6.AutoSize = true;
             this.lLN6.BackColor = System.Drawing.SystemColors.Window;
             this.lLN6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lLN6.Location = new System.Drawing.Point(834, 313);
@@ -421,7 +397,6 @@
             // 
             // lLN7
             // 
-            this.lLN7.AutoSize = true;
             this.lLN7.BackColor = System.Drawing.SystemColors.Window;
             this.lLN7.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lLN7.Location = new System.Drawing.Point(834, 368);
@@ -433,7 +408,6 @@
             // 
             // lLN8
             // 
-            this.lLN8.AutoSize = true;
             this.lLN8.BackColor = System.Drawing.SystemColors.Window;
             this.lLN8.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lLN8.Location = new System.Drawing.Point(834, 423);
@@ -445,7 +419,6 @@
             // 
             // lLN9
             // 
-            this.lLN9.AutoSize = true;
             this.lLN9.BackColor = System.Drawing.SystemColors.Window;
             this.lLN9.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lLN9.Location = new System.Drawing.Point(834, 478);
@@ -457,7 +430,6 @@
             // 
             // lLN10
             // 
-            this.lLN10.AutoSize = true;
             this.lLN10.BackColor = System.Drawing.SystemColors.Window;
             this.lLN10.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lLN10.Location = new System.Drawing.Point(834, 533);
@@ -491,14 +463,14 @@
             // optionsToolStripMenuItem1
             // 
             this.optionsToolStripMenuItem1.Name = "optionsToolStripMenuItem1";
-            this.optionsToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.optionsToolStripMenuItem1.Size = new System.Drawing.Size(117, 22);
             this.optionsToolStripMenuItem1.Text = "Options";
             this.optionsToolStripMenuItem1.Click += new System.EventHandler(this.optionsToolStripMenuItem1_Click);
             // 
             // initializeToolStripMenuItem
             // 
             this.initializeToolStripMenuItem.Name = "initializeToolStripMenuItem";
-            this.initializeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.initializeToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.initializeToolStripMenuItem.Text = "Initialize";
             // 
             // winnerListToolStripMenuItem
@@ -506,12 +478,14 @@
             this.winnerListToolStripMenuItem.Name = "winnerListToolStripMenuItem";
             this.winnerListToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
             this.winnerListToolStripMenuItem.Text = "Winner List";
+            this.winnerListToolStripMenuItem.Click += new System.EventHandler(this.winnerListToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -524,12 +498,32 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // comboBox2
+            // 
+            this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(806, 646);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 9;
+            // 
+            // listView1
+            // 
+            this.listView1.Location = new System.Drawing.Point(40, 51);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(207, 152);
+            this.listView1.TabIndex = 10;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged_1);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lLN10);
             this.Controls.Add(this.lLN5);
@@ -618,5 +612,7 @@
         private System.Windows.Forms.ToolStripMenuItem winnerListToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ListView listView1;
     }
 }

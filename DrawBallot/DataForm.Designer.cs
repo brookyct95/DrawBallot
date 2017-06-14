@@ -90,26 +90,26 @@
             this.bMod.UseVisualStyleBackColor = true;
             this.bMod.Click += new System.EventHandler(this.bMod_Click);
             // 
-            // IDBox
+            // boxID
             // 
             this.IDBox.Location = new System.Drawing.Point(12, 41);
-            this.IDBox.Name = "IDBox";
+            this.IDBox.Name = "boxID";
             this.IDBox.Size = new System.Drawing.Size(75, 20);
             this.IDBox.TabIndex = 3;
             this.IDBox.Visible = false;
             // 
-            // FNBox
+            // boxFN
             // 
             this.FNBox.Location = new System.Drawing.Point(93, 41);
-            this.FNBox.Name = "FNBox";
+            this.FNBox.Name = "boxFN";
             this.FNBox.Size = new System.Drawing.Size(75, 20);
             this.FNBox.TabIndex = 3;
             this.FNBox.Visible = false;
             // 
-            // LNBox
+            // boxLN
             // 
             this.LNBox.Location = new System.Drawing.Point(174, 41);
-            this.LNBox.Name = "LNBox";
+            this.LNBox.Name = "boxLN";
             this.LNBox.Size = new System.Drawing.Size(75, 20);
             this.LNBox.TabIndex = 3;
             this.LNBox.Visible = false;
